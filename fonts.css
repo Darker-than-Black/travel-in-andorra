@@ -1,0 +1,24 @@
+@font-face {
+    font-family: YesevaOne-Regular; 
+    src: url(fonts/YesevaOne-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: PT_Serif-Regularr; 
+    src: url(fonts/PT_Serif-Web-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: Cormorant-MediumItalic; 
+    src: url(fonts/Cormorant-MediumItalic.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: Cormorant-Medium; 
+    src: url(fonts/Cormorant-Medium.ttf);
+    font-weight: normal;
+    font-style: normal;
+}

@@ -1,0 +1,418 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+table {
+  width: 100%;
+  text-align: center;
+}
+
+td {
+  width: 33%;
+}
+
+/* header */
+
+header {
+  height: 960px;
+  max-width: 1920px;
+  background: url(img/header.png);
+  -webkit-clip-path: polygon(0 10%, 100% 10%, 100% 80.7%, 50% 100%, 0 79.8%);
+  clip-path: polygon(0 10%, 100% 10%, 100% 80.7%, 50% 100%, 0 79.8%);
+  position: relative;
+  top: -96px;
+}
+
+h1 {
+  font-family: YesevaOne-Regular;
+  font-size: 68px;
+  font-weight: 500;
+  line-height: 1.1;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  top: 280px;
+}
+
+h2 {
+  font-family: Cormorant-MediumItalic;
+  font-size: 45px;
+  font-weight: 500;
+  line-height: 1.1;
+  /*font-weight: bold;*/ /* как по мне то без этого эфекта лучше смотриться */
+  color: #050505;
+  text-align: center;
+  margin: 0  0 50px 0;
+}
+
+/* resort */
+.text {
+  width: 560px;
+}
+
+.right {
+  float: right;
+  margin: 40px 50px 50px 0;
+}
+
+.left {
+  float: left;
+  margin: 40px 0 50px 50px; 
+}
+
+.text > p,
+.info > p {
+  font-family: Cormorant-Medium;
+  /*font-weight: 500;*/
+  line-height: 1.1;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 10px 0;
+  color: #040404;
+}
+
+.resort .text:nth-child(even) {
+  margin-top: 100px;
+  margin-bottom: 200px;
+}
+
+.resort > img {
+  width: 546px;
+  height: 100%;
+  margin: 50px 55px;
+}
+
+.resort #imgOne {
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 77%, 0% 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 77%, 0% 100%);
+ 
+}
+
+.resort #imgTwo {
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 81%, 0 63%);
+  clip-path: polygon(0 0, 100% 0, 100% 81%, 0 63%);
+  float: right;
+}
+
+.info > p {
+  float: right;
+}
+
+#pl1 {
+  position: relative;
+  right: 100px;
+  top: 10px;
+}
+
+#pl2 {
+  position: relative;
+  right: 100px;
+  top: 35px;
+}
+
+#pl3 {
+  position: relative;
+  right: 100px;
+  top: 25px;
+}
+
+/* programm */
+
+.programm {
+  height: 1280px;
+  max-width: 1920px;
+  background: url(img/prog.png);
+  background-position: center;
+  margin: 100px 0;
+  -webkit-clip-path: polygon(50% 5%, 100% 0, 100% 95%, 50% 100%, 0 95%, 0 0);
+clip-path: polygon(50% 5%, 100% 0, 100% 95%, 50% 100%, 0 95%, 0 0);
+}
+
+.programm > h2 {
+  color: #fff;
+  padding: 100px;
+}
+
+.programm div > p {
+  font-family: Cormorant-MediumItalic;
+  font-size: 25px;
+  line-height: 1.1;
+  font-weight: bold;
+  color: #050505;
+  /*text-align: center;*/
+  margin: 0  0 50px 0;
+}
+
+.programm .left-column {
+  float: left;
+  width: 50%;
+}
+
+.programm .right-column {
+  float: right;
+  width: 50%;
+}
+
+.programm .left-column > p:nth-child(1) {
+  width: 340px;
+  left: 40px;
+  position: relative;
+}
+
+.programm .left-column > p:nth-child(2) {
+  width: 300px;
+  left: 10px;
+  position: relative;
+}
+
+.programm .left-column > p:nth-child(3),
+.programm .left-column > p:nth-child(4) {
+  width: 400px;
+}
+
+.programm .left-column > p:nth-child(5) {
+  width: 540px;
+  left: 40px;
+  position: relative;
+}
+
+.programm .right-column > p:nth-child(1),
+.programm .right-column > p:nth-child(2) {
+  width: 340px;
+  left: 50px;
+  position: relative;
+}
+
+.programm .right-column > p:nth-child(3){
+  width: 280px;
+  left: 90px;
+  position: relative;
+}
+
+.programm .right-column > p:nth-child(5) {
+  width: 240px;
+}
+
+.programm .right-column > p:nth-child(4) {
+  width: 520px;
+  right: 120px;
+  position: relative;
+}
+
+.programm .left-column > p {
+  padding: 0 0 50px 50px;
+}
+
+.programm .right-column > p {
+  padding: 50px 0 0 250px;
+}
+
+/* options */
+.options > h2 {
+  text-align: left;
+  right: 100px;
+  position: relative;
+} /* цей заголовок центрувався по праву сторону, а не по центру як всі інші */
+
+.options div {
+  border: 1px solid #00349a;
+  width: 25%;
+  height: 760px;
+  float: left;
+  margin: 100px 4%;
+}
+
+h3 {
+  font-family: Cormorant-Medium;
+  line-height: 1.1;
+  font-weight: bold;
+  font-size: 35px;
+  padding: 10px 0;
+  color: #040404;
+  width: 180px;
+  text-align: center;
+  margin: auto;
+  position: relative;
+  /*padding: 20px 0;*/
+  top: 50px;
+}
+
+.options div > p {
+  font-family: Cormorant-Medium;
+  line-height: 1.1;
+  font-weight: bold;
+  font-size: 17px;
+  padding: 10px 0;
+  color: #040404;
+  padding: 10px 40px;
+}
+
+.out > p {
+  top: 60px;
+  position: relative;
+}
+
+.options img {
+  height: 40%;
+}
+
+.options #opOne {
+  margin: 60px 20px 0 10px;
+  float: left;
+}
+
+.options #opThree {
+  float: right;
+  margin: 40px 10px 0 20px;
+}
+
+.options #opTwo {
+  display:block; 
+  margin: 0 auto;
+}
+
+.active {
+  background-color: #f8f8f8;
+}
+
+.active > h3 {
+  top: 0;
+}
+
+/* dop_info */
+.dop_info {
+  border: 1px solid #00349a;
+  background-color: #f8f8f8;
+  width: 98%;
+  height: 425px;
+  margin: 100px 1%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+
+}
+
+.dop_info > h2 {
+  margin: 40px auto;
+}
+
+.dop_info > table {
+  margin: 40px auto;
+  width: 90%;
+  /*text-align: center;*/
+  text-align: left;
+  padding-left: 12%;
+}
+
+.dop_info table tr:first-child {
+  font-family: Cormorant-Medium;
+  line-height: 1.1;
+  font-weight: bold;
+  font-size: 20px;
+  color: #040404;
+}
+
+.dop_info table tr:last-child {
+  font-family: Cormorant-Medium;
+  line-height: 1.1;
+  font-weight: bold;
+  font-size: 17px;
+  color: #040404;
+  /*text-align: left; */
+}
+
+.dop_info table tr:last-child div {
+ margin-top: 10px;
+}
+
+.dop_info > a {
+  color: #00349a;
+  font-size: 43px;
+  font-weight: bold;
+  border: 1px solid #00349a;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  display: inline-block;
+  padding: 5px 17px;
+  text-decoration: none;
+  position: relative;
+  top: 40px;
+}
+
+.dop_info > a:hover {
+  background-color: #ddd;
+}
+
+/* recom */
+.recom div {
+  float: left;
+}
+
+.recom div:first-child {
+  width: 60%;
+}
+
+.recom div:last-child {
+  width: 40%;
+}
+
+.recom div:first-child p > span {
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  border: 1px solid #00349a;
+  font-size: 45px;
+  font-weight: bold;
+  padding: 0 17px;
+}
+
+.recom div:first-child p {
+  font-family: Cormorant-Medium;
+  line-height: 1.1;
+  font-weight: bold;
+  font-size: 20px;
+  color: #040404;
+}
+
+/*footer */
+footer > h2 {
+  position: relative;
+  top: 100px;
+}
+
+footer .bg {
+  height: 960px;
+  max-width: 1920px;
+  background: url(img/footer.png);
+  background-position: center;
+  text-align: center;
+  -webkit-clip-path: polygon(51% 19%, 100% 0, 100% 100%, 0 100%, 0 0);
+  clip-path: polygon(51% 19%, 100% 0, 100% 100%, 0 100%, 0 0);
+  /*margin-top: 460px;*/
+}
+
+footer .bg a {
+   font-family: Cormorant-Medium;
+  /*font-weight: 500;*/
+  line-height: 1.1;
+  font-weight: 500;s
+  font-size: 45px;
+  text-decoration: none;
+  color: #040404;
+  position: relative;
+  top: 360px;
+  padding: 2px 70px;
+  background-color: #00bff3;
+}
+
+
